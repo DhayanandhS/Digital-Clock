@@ -35,6 +35,9 @@ body {
     padding: 40px;
     border-radius: 10px;
     background-color: #222;
+    background: linear-gradient(135deg, #ff007f, #790093, #530070, #4c063a, #1c0030);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
 }
 
 #date{
