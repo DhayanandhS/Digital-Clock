@@ -12,7 +12,7 @@ body {
     font: bold 12px Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg, #1c0030, #32004d, #530070, #790093, #ff007f);
     background-size: 400% 400%;
-    animation: gradientAnimation 15s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
 }
 
 @keyframes gradientAnimation {
@@ -37,7 +37,7 @@ body {
     background-color: #222;
     background: linear-gradient(135deg, #ff007f, #790093, #530070, #32004d, #1c0030);
     background-size: 400% 400%;
-    animation: gradientAnimation 15s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
