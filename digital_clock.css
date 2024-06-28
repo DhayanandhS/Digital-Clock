@@ -67,7 +67,7 @@ h1{
 footer{
     font-family: sans-serif;
     margin-top: 200px;
-    color: #ff007f;
+    color: hotpink;
     text-align: center;
     padding: 1rem 0;
 }
@@ -82,4 +82,4 @@ footer{
     border: 4px;
     color: hotpink !important;
     transition: background-color 0.5s, color 0.5s;
-  }
+}
