@@ -30,14 +30,19 @@ body {
 
 
 .clock{
-    border: 1px solid #606060;
+    /* border: 1px solid #606060; */
     color: white;
     padding: 40px;
     border-radius: 10px;
     background-color: #222;
-    background: linear-gradient(135deg, #ff007f, #790093, #530070, #4c063a, #1c0030);
+    background: linear-gradient(135deg, #ff007f, #790093, #530070, #32004d, #1c0030);
     background-size: 400% 400%;
     animation: gradientAnimation 15s ease infinite;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #date{
@@ -58,3 +63,23 @@ h1{
     padding: 20px;
     font-size: 50px;
 }
+
+footer{
+    font-family: sans-serif;
+    margin-top: 200px;
+    color: #ff007f;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-link{
+    font-size: larger;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+.footer-link i:hover {
+    border: 4px;
+    color: hotpink !important;
+    transition: background-color 0.5s, color 0.5s;
+  }
